@@ -5,11 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <?php
     if ($_SERVER['REQUEST_URI'] == "/PHP/Accueil.php") {
         echo
@@ -20,7 +17,6 @@
     }
     ?>
 </head>
-
 <body>
     <div class="parallax">
         <div class="container-fluid g-1">
@@ -50,8 +46,7 @@
                 </div>
             </nav>
         </div>
-  
-        <div class="image-container">  <!--change the place of php server request from just below the video to above the video remove video from page commande-->
+  <div class="image-container">  <!--change the place of php server request from just below the video to above the video remove video from page commande-->
         <?php if ($_SERVER['REQUEST_URI']!= "/PHP/Commande.php"){?>
  <!-- <div class="card no-hover" style="background-color:black;"> 
             <!--<video id="video" class="col-12" src="../IMG/video.mp4" style="width: 100%; height: 35vh;"

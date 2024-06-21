@@ -12,7 +12,6 @@
 <body>
     <?php require_once('../PHP/header.php') ?>
     <?php require_once('../PHP/header.php') ?>
-
     <!-- <!<video id="video" class="mx-auto" src="../IMG/video.mp4" style="width: 100%; height: 35vh;" playsinline autoplay
             loop muted></video> -->
     <div class="container mt-5 p-5" style="justify-content: center;">
@@ -61,9 +60,7 @@
             </div>
         </form>
     </div>
-
     <?php require_once('../PHP/footer.php') ?>
-
     <script src="../JAVASCRIPT/categplats.JS"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

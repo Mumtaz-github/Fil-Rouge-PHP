@@ -73,7 +73,6 @@
             <button id="suivant" class=" btn btn-dark btn-lg rounded-pill col-md-2 col-4" type="submit" formaction="Sandwich.php">suivant</button>
         </form>
     </div>
-
     <?php require_once('../PHP/footer.php') ?>
 
 

@@ -5,17 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BURGER</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-
-
     <link rel="stylesheet" href=" ../CSS/plats.css">
 
 </head>
-
 <body>
     <?php require_once('../PHP/header.php') ?>
     <!--<img class="imagedefond img-fluid" src="../IMG/bg2.jpeg" height="10px" width="100%" position="relative:">-->
@@ -64,7 +58,6 @@
                     <div class="card-body">
                         <h6 class="card-title">CHEESE BURGER</h6>
                         <p class="card-text">Ce plat est composé de.</p>
-
                         <!--  <div class="d-flex justify-content-around mb-1">-->
                         <a href="../PHP/Commande.php" id="burg04" class="btn rounded-pill btn-dark">COMMANDER</a>
                     </div>

@@ -5,14 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CATEGORIE</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-
     <link rel="stylesheet" href=" ../CSS/plats.css">
-
 </head>
 
 <body>
@@ -21,7 +16,6 @@
     <!-- <video id="video" class="mx-auto" src="../IMG/video.mp4" style="width: 100%; height: 35vh;" playsinline autoplay
             loop muted></video>
          -->
-
     <!--                      DEBUT CAROUSSEL CATEGORIES                     -->
     <div id="carouselExample" class="carousel slide text-center" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -30,7 +24,6 @@
                 <div class="card-group">
                     <!--            ****************** 1ER CAROUSEL AVEC 4 IMAGES  *************************    -->
                     <!-- Ajouter des cartes ici selon besoin -->
-
                     <div class="img-fluid col-sm-3 p-3 text-white cards"> <!--here after added cards the transition or zomming applied in css-->
                         <a href="../PHP/Asiatique.php">
                             <img class=" mx-auto d-block" src="../IMG/img-catogory/asian-food-cat.jpg" class="card-img-top" alt="...">
@@ -126,9 +119,6 @@
     </div>-->
         <!-- ICI Mes boutons de carousel -->
 
-       
- 
-
         <div class="container-fluid mt-2 mb-2">
             <div class="col">
                 <div class="col d-flex justify-content-evenly">
@@ -143,9 +133,6 @@
                 </div>
             </div>
         </div>
-        
-
-
         <?php require_once('../PHP/footer.php') ?>
 
 

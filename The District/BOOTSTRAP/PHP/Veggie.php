@@ -17,7 +17,6 @@
     <!--<img class="imagedefond img-fluid" src="../IMG/bg2.jpeg" height="10px" width="100%" position="relative:">-->
 
     <!-- <video id="video" class="mx-auto" src="../IMG/video.mp4" style="width: 100%; height: 35vh;" playsinline autoplay loop muted></video> -->
-
     <h1 class="text-center">VEGGIE </h1>
     <div class="container">
         <div class="row">

@@ -13,7 +13,6 @@
 <body>
     <?php require_once('../PHP/header.php') ?>
     <!--<img class="imagedefond img-fluid" src="../IMG/bg2.jpeg" height="10px" width="100%" position="relative:">-->
-
     <!-- <video id="video" class="mx-auto" src="../IMG/video.mp4" style="width: 100%; height: 35vh;" playsinline autoplay loop muted></video> -->
     <h1 class="text-center">SANDWICH </h1>
     <div class="container">
@@ -62,11 +61,7 @@
         </div>
     </div>
     <!-- ****************buttons *************-->
-
     <div class="container mt-4 mb-4">
-
-
-
 
         <!-- <div class="row justify-content-evenly mt-2">
             <button class=" btn btn-dark btn-lg rounded-pill col-md-2 col-4" type="button" id="precedent"><a class="link-info link-offset-2 link-underline link-underline-opacity-0" href="Salade.php">precedent</a></button>
