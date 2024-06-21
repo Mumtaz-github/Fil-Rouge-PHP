@@ -8,7 +8,7 @@
  <!--<div class="image-container"> 
  <div class="card no-hover" style="background-color:black;">
             <video id="video" class="col-12" src="../IMG/video.mp4" style="width: 100%; height: 35vh;"
-                playsinline autoplay loop muted></video> <!-- pour le video style="width: 100vmax; height: 35vh-->
+                playsinline autoplay loop muted></video>  pour le video style="width: 100vmax; height: 35vh-->
               
            <!-- <div class="ongletrecherche"> 
                 <input class="form-control me rounded-pill" type="search" placeholder="Search" aria-label="Search">
@@ -102,8 +102,7 @@
                             </div>
                         </div>
                     </div>
-                  
-                    <div class="col">
+                   <div class="col">
                         <div class="cards">
                             <a href="../PHP/Pizza.php">
                                 <img src="../IMG/img-food/menu-pizza(1).jpg"  class="card-img-top" alt="cheesburger;">
