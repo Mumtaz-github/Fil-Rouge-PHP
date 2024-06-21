@@ -4,6 +4,24 @@
 
 
  <?php require_once('header.php');?>
+ <?php
+// Start the session , still didn't check it properly that how it works we can add session in page 
+#session_start();
+
+// Check if the user is logged in
+#if (isset($_SESSION['username'])) {
+    // User is logged in, display a welcome message
+    #echo "Welcome, ". $_SESSION['username']. "!";
+#} else {
+    // User is not logged in, display a login link
+    #echo "You are not logged in. <a href='login.php'>Login</a>";
+#}
+?>
+
+
+
+
+
  <!--video de page accueil-->
  <!--<div class="image-container"> 
  <div class="card no-hover" style="background-color:black;">
@@ -25,6 +43,9 @@
                             </a>
                             <div class="card-body ">
                             <h4 class="card-title text-center text-white">ASIATIQUE</h4>
+                           <!-- </*?php if (isset($_SESSION['username'])) {?>
+                        <p>Welcome, </*?php echo $_SESSION['username'];?>!</p>  //when user logged in it diplay welcom message, it display user'sname or other information
+                    </*?php }?>-->
                             </div>
                             <div class="d-flex justify-content-around mb-1">
                             </div>
