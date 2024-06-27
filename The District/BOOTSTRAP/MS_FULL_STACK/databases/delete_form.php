@@ -1,5 +1,5 @@
 <?php
-require_once 'functions.php'; // Include your functions file
+require_once 'fonctions.php'; // Include your functions file
 
 // Check if a disc ID is provided
 if (isset($_GET['disc_id'])) {

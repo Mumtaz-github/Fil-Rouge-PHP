@@ -1,5 +1,5 @@
 <?php
-require_once 'functions.php'; // Include your functions file
+require_once 'fonctions.php'; // Include your functions file
 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

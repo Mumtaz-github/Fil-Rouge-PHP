@@ -56,7 +56,9 @@ function getArtists() {
 // Function to add a new disc record to the database
 function addDisc($title, $artist_id, $year, $genre, $label, $price, $picture) {
     global $conn;
-    $sql = "INSERT INTO disc (title, artist_id, year, genre, label, price, picture) VALUES ('$title', '$artist_id', '$year', '$genre', '$label', '$price', '$picture')";
+    $sql = $conn->prepare("INSERT INTO disc (disc_title, artist_id, disc_year, disc_genre, disc_label, disc_price, disc_picture) VALUES ('$title', '$artist_id', '$year', '$genre', '$label', '$price', '$picture')");
+    $sql->execute();
+
     if (mysqli_query($conn, $sql)) {
         return true;
     } else {
@@ -99,7 +101,7 @@ function deleteDisc($disc_id) {
 
 // Function to upload a picture file
 function uploadPicture($file) {
-    $target_dir = "uploads/";
+    $target_dir = "pictures/";
     $target_file = $target_dir . basename($file["name"]);
     $uploadOk = 1;
 

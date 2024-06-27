@@ -1,5 +1,5 @@
 <?php
-require_once 'functions.php'; // Include your functions file
+require_once 'fonctions.php'; // Include your functions file
 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Redirect to the list page
     if ($result) {
-        header('Location: index.php');
+        header('Location:index.php');
         exit;
     } else {
         echo "Erreur lors de la suppression du disque.";
