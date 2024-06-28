@@ -9,6 +9,9 @@ $db_name = "record";
 // Fetch all records from the "disc" table
 $discs = getDiscs();
 
+$conn = new PDO('mysql:host=localhost;dbname=record', 'admin', 'Afpa1234');
+$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
 ?>
 <!DOCTYPE html>
 <html>

@@ -7,6 +7,7 @@ $db_password = "Afpa1234";
 $db_name = "record";
 
 // Connect to the database
+
 $conn = mysqli_connect($db_host, $db_user, $db_password, $db_name);
 
 // Error handling for database connection
@@ -54,17 +55,17 @@ function getArtists() {
 }
 
 // Function to add a new disc record to the database
-function addDisc($title, $artist_id, $year, $genre, $label, $price, $picture) {
-    global $conn;
-    $sql = $conn->prepare("INSERT INTO disc (disc_title, artist_id, disc_year, disc_genre, disc_label, disc_price, disc_picture) VALUES ('$title', '$artist_id', '$year', '$genre', '$label', '$price', '$picture')");
-    $sql->execute();
+// function addDisc($title, $artist_id, $year, $genre, $label, $price, $picture) {
+//     global $conn;
+//     $sql = $conn->prepare("INSERT INTO disc (disc_title, artist_id, disc_year, disc_genre, disc_label, disc_price, disc_picture) VALUES ('$title', '$artist_id', '$year', '$genre', '$label', '$price', '$picture')");
+//     $sql->execute();
 
-    if (mysqli_query($conn, $sql)) {
-        return true;
-    } else {
-        return false;
-    }
-}
+//     if (mysqli_query($conn, $sql)) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
 
 // Function to update a disc record in the database
 function updateDisc($disc_id, $title, $artist_id, $year, $genre, $label, $price, $picture) {
@@ -78,15 +79,15 @@ function updateDisc($disc_id, $title, $artist_id, $year, $genre, $label, $price,
 }
 
 // Function to update the picture path for a disc in the database
-function updateDiscPicture($disc_id, $picture) {
-    global $conn;
-    $sql = "UPDATE disc SET picture = '$picture' WHERE disc_id = '$disc_id'";
-    if (mysqli_query($conn, $sql)) {
-        return true;
-    } else {
-        return false;
-    }
-}
+// function updateDiscPicture($disc_id, $picture) {
+//     global $conn;
+//     $sql = "UPDATE disc SET picture = '$picture' WHERE disc_id = '$disc_id'";
+//     if (mysqli_query($conn, $sql)) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
 
 // Function to delete a disc record from the database
 function deleteDisc($disc_id) {
@@ -100,19 +101,19 @@ function deleteDisc($disc_id) {
 }
 
 // Function to upload a picture file
-function uploadPicture($file) {
-    $target_dir = "pictures/";
-    $target_file = $target_dir . basename($file["name"]);
-    $uploadOk = 1;
+// function uploadPicture($file) {
+//     $target_dir = "pictures/";
+//     $target_file = $target_dir . basename($file["name"]);
+//     $uploadOk = 1;
 
-    // Check if image file is a actual image or fake image
-    if ($uploadOk == 1) {
-        if (move_uploaded_file($file["tmp_name"], $target_file)) {
-            echo "File is complete.";
-        } else {
-            echo "File is not complete.";
-        }
-    }
-}
+//     // Check if image file is a actual image or fake image
+//     if ($uploadOk == 1) {
+//         if (move_uploaded_file($file["tmp_name"], $target_file)) {
+//             echo "File is complete.";
+//         } else {
+//             echo "File is not complete.";
+//         }
+//     }
+// }
 
         ?>
